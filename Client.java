@@ -1,4 +1,3 @@
-
 import java.io.*;
 import java.net.Socket;
 
@@ -32,7 +31,7 @@ public class Client {
 
 	public static void main(String[] args) {
 		try {
-			Client c1 = new Client(4321, "127.0.0.1", "A");
+			Client c1 = new Client(4321, "127.0.0.1", "temp");
 			c1.log();
 		} catch (IOException e) {
 			System.out.println("error connecting: " + e);
