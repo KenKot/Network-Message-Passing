@@ -11,5 +11,6 @@ public class Message implements Serializable {
 		this.content = content;
 	}
 	
+
 	
 }
