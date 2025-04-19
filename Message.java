@@ -11,6 +11,16 @@ public class Message implements Serializable {
 		this.content = content;
 	}
 	
-
 	
+	public MessageStatusEnum getStatus() {
+		return this.status;
+	}
+
+	public MessageTypeEnum getType() {
+		return this.type;
+	}
+	
+	public String getContent() {
+		return this.content;
+	}
 }

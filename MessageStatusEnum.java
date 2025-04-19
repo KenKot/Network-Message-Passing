@@ -1,3 +1,3 @@
 public enum MessageStatusEnum {
-	SUCCESS, FAILURE
+	NONE, SUCCESS, FAILURE
 }
